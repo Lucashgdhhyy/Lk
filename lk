@@ -19,22 +19,6 @@ OrionLib:MakeNotification({
 	Time = 10
 }) --Notification
 
-local Tab = Window:MakeTab({
-	Name = "Status",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-}) --Making A Tab
-
-Tab:AddButton({
-    Name = "ban danger🟧",
-    Callback = function()
-        if getgenv().KeyInput == getgenv().Key then
-            OrionLib:MakeNotification({
-                Name = "Checar key",
-                Content = "checando key",
-                Image = "rbxassetid://4483345998",
-                Time = 5
-                
 getgenv().Key = "Lkhub" --Put The Correct Key Here
 getgenv().KeyInput = "string" --Require For The Key To Work
 
