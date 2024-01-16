@@ -84,7 +84,7 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
 	Name = "Copiar site da key",
 	Callback = function()
-      		setclipboard("https://link-center.net/1092452/lkhub-key-system-scripts") --This Will Copy The Link Of The Key
+      		setclipboard("https://link-center.net/1092452/sc-lk-hub-script-hub") --This Will Copy The Link Of The Key
   	end    
 }) 
 
